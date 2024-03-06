@@ -1,1 +1,2 @@
-# 63131868-AndroidProgramming
+# 63131868-AndroidProgramming 
+Kết nối được với điện thoại thật qua wifi 
