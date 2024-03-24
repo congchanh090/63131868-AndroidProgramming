@@ -40,46 +40,43 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 textViewBMI.setText("");
                 textViewBMI.setText("");
-                if(editTextCC.getText().toString().isEmpty() && editTextCN.getText().toString().isEmpty())
-                {
-                    Toast.makeText( MainActivity.this , "Chưa nhập chiều cao , cân nặng",Toast.LENGTH_SHORT).show();
-                    editTextCC.requestFocus() ;
+                if (editTextCC.getText().toString().isEmpty() && editTextCN.getText().toString().isEmpty()) {
+                    Toast.makeText(MainActivity.this, "Chưa nhập chiều cao , cân nặng", Toast.LENGTH_SHORT).show();
+                    editTextCC.requestFocus();
 
-                }
-                else if(editTextCC.getText().toString().isEmpty()){
-                    Toast.makeText(MainActivity.this,"Thiếu dữ liệu chiều cao",Toast.LENGTH_SHORT).show();
+                } else if (editTextCC.getText().toString().isEmpty()) {
+                    Toast.makeText(MainActivity.this, "Thiếu dữ liệu chiều cao", Toast.LENGTH_SHORT).show();
                     editTextCC.requestFocus();
-                }
-                else if(editTextCC.getText().toString().isEmpty()){
-                    Toast.makeText(MainActivity.this,"Thiếu dữ liệu cân nặng",Toast.LENGTH_SHORT).show();
+                } else if (editTextCC.getText().toString().isEmpty()) {
+                    Toast.makeText(MainActivity.this, "Thiếu dữ liệu cân nặng", Toast.LENGTH_SHORT).show();
                     editTextCC.requestFocus();
-                }
-                else if(radioButtonNAM.isChecked() == false && radioButtonNu.isChecked() ==false){
-                    Toast.makeText(MainActivity.this,"Vui lòng chọn giới tính ",Toast.LENGTH_SHORT).show();
-                }
-                else{
-                    double CC  = Double.parseDouble( editTextCC.getText()+"") ;
-                    double CN  = Double.parseDouble( editTextCN.getText()+"") ;
-                    DecimalFormat dcf = new DecimalFormat("0.00") ;
-                    double BMI = CN/Math.pow(CC,2) * 10000 ;
-                    if((CC==0)|| (CN == 0))
-                    {
-                        Toast.makeText(MainActivity.this,"Chiều cao cân nặng phải khác 0",Toast.LENGTH_SHORT).show();
-                    }
-                    else
-                    {
+                } else if (radioButtonNAM.isChecked() == false && radioButtonNu.isChecked() == false) {
+                    Toast.makeText(MainActivity.this, "Vui lòng chọn giới tính ", Toast.LENGTH_SHORT).show();
+                } else {
+                    double CC = Double.parseDouble(editTextCC.getText() + "");
+                    double CN = Double.parseDouble(editTextCN.getText() + "");
+                    DecimalFormat dcf = new DecimalFormat("0.00");
+                    double BMI = CN / Math.pow(CC, 2) * 10000;
+                    if ((CC == 0) || (CN == 0)) {
+                        Toast.makeText(MainActivity.this, "Chiều cao cân nặng phải khác 0", Toast.LENGTH_SHORT).show();
+                    } else {
                         textViewBMI.setText("Chỉ số BMI của bạn " + dcf.format(BMI));
-                        if(BMI )
+                        if (BMI < 18.5)
+                            textViewBMI.setText("Bạn quá gầy , cần bổ sung thêm chất dinh dưỡng nữa nhé ");
+                        else if (18.5 <= BMI && BMI < 25)
+                            textViewBMI.setText("Body chuẩn nhé , cứ tiếp tục phát huy  ");
+                        else if (25 <= BMI && BMI < 30)
+                            textViewBMI.setText("Bạn đang béo phì cấp độ 1 , cần có chế độ giảm cn hợp lý ");
+                        else if (30 <= BMI && BMI < 35)
+                            textViewBMI.setText("Bạn đang béo phì cấp độ 2 , cần có chế độ giảm cn hợp lý ");
+                        else
+                            textViewBMI.setText("Bạn đang béo phì cấp độ 3 , cần có chế độ giảm cn hợp lý ");
+
                     }
 
                 }
+            }
         });
-
-
-
-
-
-
 
     }
 }

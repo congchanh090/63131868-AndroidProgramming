@@ -8,12 +8,16 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="396dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="52dp"
-        android:text="Tính chỉ só BMI Dựa vào chều cao cân nặng"
+        android:layout_width="380dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="32dp"
+        android:text="Tính chỉ số BMI dựa vào chiều cao cân nặng"
+        android:textAlignment="center"
+        android:textColor="#2B7597"
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,8 +35,8 @@
         android:id="@+id/editTextCC"
         android:layout_width="200dp"
         android:layout_height="42dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,29 +44,33 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="106dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="30dp"
+        android:layout_width="109dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
         android:text="Cân nặng"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="211dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
         android:id="@+id/editTextCN"
         android:layout_width="198dp"
         android:layout_height="45dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
         android:ems="10"
         android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/RadioGroupGT"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="206dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextCC"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="106dp"
         android:layout_height="35dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
         android:text="Giới tính"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -70,10 +78,11 @@
     <RadioGroup
         android:id="@+id/RadioGroupGT"
         android:layout_width="160dp"
-        android:layout_height="92dp"
-        android:layout_marginEnd="64dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="72dp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="266dp">
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
 
         <RadioButton
             android:id="@+id/radioButtonNam"
@@ -89,11 +98,15 @@
 
     <Button
         android:id="@+id/buttonDG"
-        android:layout_width="213dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginBottom="192dp"
+        android:layout_width="204dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="180dp"
+        android:background="#1699D5"
         android:text="Đánh Giá"
+        android:textColor="#D3DCDD"
+        android:textSize="18dp"
+        app:iconPadding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -103,7 +116,7 @@
         android:layout_height="54dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="40dp"
-        android:text="TextView"
+        android:text=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonDG" />
 
@@ -112,7 +125,7 @@
         android:layout_width="360dp"
         android:layout_height="48dp"
         android:layout_marginStart="30dp"
-        android:text="TextView"
+        android:text=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewBMI" />
 
