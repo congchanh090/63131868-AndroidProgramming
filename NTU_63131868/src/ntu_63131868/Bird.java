@@ -10,6 +10,10 @@ public class Bird extends Objects  {
 		super (x,y,w,h) ; 
 	}
 	
+	public void setVt(float vt) {
+		this.vt = vt ; 
+	}
+	
 	//update chim rơi 
 	public void update (long detaTime) {
 		vt += Cau1_GameFlappyBird.g ; 

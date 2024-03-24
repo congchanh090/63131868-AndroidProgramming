@@ -17,16 +17,17 @@ public class Cau1_GameFlappyBird extends GameScreen {
 	private  BufferedImage birds ;
 	private Animation bird_anim  ;  
 	
-	
+	private BufferedImage chimney  ; 
 	//Trong luc 
 	public static float g = 0.1f ; 
 	
 	public Bird bird ; 
 	private Ground ground  ; 
+	private Chimney cnObjects ; 
 	
 	private int Begin_Screen = 0  ; 
 	private int GAMEPLAY_Screen = 1  ; 
-	private int GAMEPOVER_Screen = 2  ; 
+	private int GAMEOVER_Screen = 2  ; 
 	private int CurrentScreen = Begin_Screen ;  
 
 
@@ -34,6 +35,9 @@ public class Cau1_GameFlappyBird extends GameScreen {
 		super(800,600) ; 
 		try {
 			birds = ImageIO.read(new File("Asset/bird_sprite.png")) ; 
+		
+			chimney  = ImageIO.read(new File("Asset/chimney.png")) ; 
+		
 		} catch (IOException ex ) {}
 		
 		bird_anim = new Animation(70) ; 
@@ -52,6 +56,7 @@ public class Cau1_GameFlappyBird extends GameScreen {
 		
 		bird =  new Bird( 350 ,250 , 50 , 50) ; 
 		ground = new Ground () ; 
+		cnObjects = new Chimney (700 , 300,74,400) ; 
 
 		BeginGame(); 
 	}
@@ -61,19 +66,25 @@ public class Cau1_GameFlappyBird extends GameScreen {
 		
 
 	}
+	private void resetGame() {
+     bird.setPos(350, 250);
+		bird.setVt(0);
+		
+	}
 
 	@Override
 	public void GAME_UPDATE(long deltaTime) {
 		
 		if(CurrentScreen == Begin_Screen) {
-			
+			resetGame(); 
 		}else if(CurrentScreen == GAMEPLAY_Screen) {
 				
 		bird_anim.Update_Me(deltaTime);
 		bird.update(deltaTime);
 		ground.Update(); 
+		cnObjects.Update(); 
 		
-		if(bird.getPosY() + bird.getH() > ground.getYGround())  CurrentScreen = GAMEPOVER_Screen ; 
+		if(bird.getPosY() + bird.getH() > ground.getYGround())  CurrentScreen = GAMEOVER_Screen ; 
 		}
 		else {
 			
@@ -82,6 +93,8 @@ public class Cau1_GameFlappyBird extends GameScreen {
 
 	@Override
 	public void GAME_PAINT(Graphics2D g2) {
+		g2.drawImage( chimney ,(int ) cnObjects.getPosX() ,(int) cnObjects.getPosY(),this) ; 
+
 		ground.Paint(g2);
 
 		
@@ -95,9 +108,9 @@ public class Cau1_GameFlappyBird extends GameScreen {
 			g2.setColor(Color.red);
 			g2.drawString("Press apace to play game",200,300) ; 
 		}
-		if(CurrentScreen == GAMEPOVER_Screen) {
+		if(CurrentScreen == GAMEOVER_Screen) {
 			g2.setColor(Color.red);
-			g2.drawString("Press space turn back screen",200,300) ; 
+			g2.drawString("Press space to turn back screen",200,300) ; 
 		}
 		
 		
@@ -111,7 +124,7 @@ public class Cau1_GameFlappyBird extends GameScreen {
 			}else if(CurrentScreen == GAMEPLAY_Screen) {
 				bird.fly();
 
-			}else if(CurrentScreen == GAMEPLAY_Screen ) {
+			}else if(CurrentScreen == GAMEOVER_Screen ) {
 				CurrentScreen = Begin_Screen ; 
 			}
 		}
