@@ -8,13 +8,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="380dp"
-        android:layout_height="81dp"
+        android:layout_width="378dp"
+        android:layout_height="102dp"
         android:layout_marginTop="32dp"
         android:text="Tính chỉ số BMI dựa vào chiều cao cân nặng"
         android:textAlignment="center"
         android:textColor="#2B7597"
-        android:textSize="34sp"
+        android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.571"

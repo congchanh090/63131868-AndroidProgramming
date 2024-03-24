@@ -66,11 +66,11 @@ public class MainActivity extends AppCompatActivity {
                         else if (18.5 <= BMI && BMI < 25)
                             textViewBMI.setText("Body chuẩn nhé , cứ tiếp tục phát huy  ");
                         else if (25 <= BMI && BMI < 30)
-                            textViewBMI.setText("Bạn đang béo phì cấp độ 1 , cần có chế độ giảm cn hợp lý ");
+                            textViewBMI.setText("Bạn đang béo phì cấp độ 1 , cần có chế độ giảm cân hợp lý ");
                         else if (30 <= BMI && BMI < 35)
-                            textViewBMI.setText("Bạn đang béo phì cấp độ 2 , cần có chế độ giảm cn hợp lý ");
+                            textViewBMI.setText("Bạn đang béo phì cấp độ 2 , cần có chế độ giảm cân hợp lý ");
                         else
-                            textViewBMI.setText("Bạn đang béo phì cấp độ 3 , cần có chế độ giảm cn hợp lý ");
+                            textViewBMI.setText("Bạn đang béo phì cấp độ 3 , cần có chế độ giảm cân hợp lý ");
 
                     }
 
