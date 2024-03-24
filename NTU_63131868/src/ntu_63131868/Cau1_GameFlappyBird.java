@@ -60,6 +60,7 @@ public class Cau1_GameFlappyBird extends GameScreen {
 	public void GAME_UPDATE(long deltaTime) {
 		bird_anim.Update_Me(deltaTime);
 		bird.update(deltaTime);
+		ground.Update(); 
 		
 	}
 
