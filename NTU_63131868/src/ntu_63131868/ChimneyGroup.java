@@ -84,7 +84,7 @@ public class ChimneyGroup {
     
     public void update(){
         for(int i = 0;i < SIZE; i++){
-            chimneys.get(i).Update();;
+            chimneys.get(i).update(); 
         }
         
 

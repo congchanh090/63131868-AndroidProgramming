@@ -13,6 +13,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 
+
 public class Ground {
     
     private BufferedImage groundImage;
@@ -21,7 +22,7 @@ public class Ground {
     
     public Ground(){
         try {
-            groundImage = ImageIO.read(new File("Asset/ground.png"));
+            groundImage = ImageIO.read(new File("Assets/ground.png"));
         } catch (IOException ex) {}
         
         x1 = 0;
