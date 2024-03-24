@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ntu_63131868;
 
 import java.awt.Color;
@@ -16,10 +12,6 @@ import pkg2dgamesframework.AFrameOnImage;
 import pkg2dgamesframework.Animation;
 import pkg2dgamesframework.GameScreen;
 
-/**
- *
- * @author phamn
- */
 public class Cau1_GameFlappyBird extends GameScreen{
 
     private BufferedImage birds;
@@ -45,7 +37,7 @@ public class Cau1_GameFlappyBird extends GameScreen{
             super(800,600);
         
         try {
-            birds = ImageIO.read(new File("Assets/bird_sprite.png"));
+            birds = ImageIO.read(new File("Asset/bird_sprite.png"));
         } catch (IOException ex) {}
         
         bird_anim = new Animation(70);

@@ -22,7 +22,7 @@ public class Ground {
     
     public Ground(){
         try {
-            groundImage = ImageIO.read(new File("Assets/ground.png"));
+            groundImage = ImageIO.read(new File("Asset/ground.png"));
         } catch (IOException ex) {}
         
         x1 = 0;

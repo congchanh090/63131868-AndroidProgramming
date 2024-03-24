@@ -4,10 +4,7 @@ package ntu_63131868;
 import java.awt.Rectangle;
 import pkg2dgamesframework.Objects;
 
-/**
- *
- * @author phamn
- */
+
 public class Chimney extends Objects{
     
     private Rectangle rect;

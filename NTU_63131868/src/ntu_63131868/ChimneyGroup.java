@@ -44,8 +44,8 @@ public class ChimneyGroup {
         
         try {
             
-            chimneyImage = ImageIO.read(new File("Assets/chimney.png"));
-            chimneyImage2 = ImageIO.read(new File("Assets/chimney2.png"));
+            chimneyImage = ImageIO.read(new File("Asset/chimney.png"));
+            chimneyImage2 = ImageIO.read(new File("Asset/chimney_.png"));
         } catch (IOException ex) {}
         
         chimneys = new QueueList<Chimney>();
