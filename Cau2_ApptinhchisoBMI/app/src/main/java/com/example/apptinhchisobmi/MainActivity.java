@@ -11,6 +11,8 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+
 public class MainActivity extends AppCompatActivity {
 
    EditText editTextCC , editTextCN;
@@ -55,20 +57,25 @@ public class MainActivity extends AppCompatActivity {
                 else if(radioButtonNAM.isChecked() == false && radioButtonNu.isChecked() ==false){
                     Toast.makeText(MainActivity.this,"Vui lòng chọn giới tính ",Toast.LENGTH_SHORT).show();
                 }
+                else{
+                    double CC  = Double.parseDouble( editTextCC.getText()+"") ;
+                    double CN  = Double.parseDouble( editTextCN.getText()+"") ;
+                    DecimalFormat dcf = new DecimalFormat("0.00") ;
+                    double BMI = CN/Math.pow(CC,2) * 10000 ;
+                    if((CC==0)|| (CN == 0))
+                    {
+                        Toast.makeText(MainActivity.this,"Chiều cao cân nặng phải khác 0",Toast.LENGTH_SHORT).show();
+                    }
+                    else
+                    {
+                        textViewBMI.setText("Chỉ số BMI của bạn " + dcf.format(BMI));
+                        if(BMI )
+                    }
+
+                }
         });
 
-        buttonDG.setOnClickListener((view) -> {
-            textViewBMI.setText("");
-            textViewBMI.setText("");
-            if(editTextCC.getText().toString().isEmpty() && editTextCN.getText().toString().isEmpty())
-            {
-                Toast.makeText( MainActivity.this , "Chưa nhập chiều cao , cân nặng",Toast.LENGTH_SHORT).show();
-                editTextCC.requestFocus() ;
 
-            }
-
-
-        };
 
 
 
