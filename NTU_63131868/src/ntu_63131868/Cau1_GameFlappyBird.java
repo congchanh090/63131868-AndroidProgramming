@@ -22,6 +22,8 @@ public class Cau1_GameFlappyBird extends GameScreen {
 	public static float g = 0.1f ; 
 	
 	public Bird bird ; 
+	
+	private Ground ground  ; 
 	public Cau1_GameFlappyBird() {
 		super(800,600) ; 
 		try {
@@ -43,6 +45,7 @@ public class Cau1_GameFlappyBird extends GameScreen {
 		bird_anim.AddFrame(f) ;
 		
 		bird =  new Bird( 350 ,250 , 50 , 50) ; 
+		ground = new Ground () ; 
 
 		BeginGame(); 
 	}
@@ -62,8 +65,12 @@ public class Cau1_GameFlappyBird extends GameScreen {
 
 	@Override
 	public void GAME_PAINT(Graphics2D g2) {
-	if(birds != null ) bird_anim.PaintAnims((int) bird.getPosX(), (int) bird.getPosY(), birds, g2, 0, 0);
-		
+		if(bird.getIsFlying())	
+	 bird_anim.PaintAnims((int) bird.getPosX(), (int) bird.getPosY(), birds, g2, 0, -1);
+		else 
+			 bird_anim.PaintAnims((int) bird.getPosX(), (int) bird.getPosY(), birds, g2, 0, 0);
+
+		ground.Paint(g2);
 	}
 
 	@Override
