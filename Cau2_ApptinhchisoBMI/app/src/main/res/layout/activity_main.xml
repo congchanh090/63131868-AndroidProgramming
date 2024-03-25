@@ -16,6 +16,7 @@
         android:textColor="#2B7597"
         android:textSize="30dp"
         android:textStyle="bold"
+        android:background="@color/material_dynamic_neutral60"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
