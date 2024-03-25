@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6BB36E"
     tools:context=".MainActivity" >
+
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="383dp"
-        android:layout_height="87dp"
-        android:layout_marginStart="12dp"
+        android:layout_width="370dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="24dp"
 
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="monospace"
         android:text="GIỚI THIỆU BẢN THÂN"
         android:textAlignment="center"
@@ -27,8 +29,8 @@
         android:id="@+id/imageView"
         android:layout_width="140dp"
         android:layout_height="186dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:srcCompat="@tools:sample/avatars" />
@@ -37,19 +39,45 @@
         android:id="@+id/textView3"
         android:layout_width="192dp"
         android:layout_height="41dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="24dp"
-        android:text="TextView"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Họ và tên : Lê Công Chánh"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="183dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="48dp"
-        android:text="TextView"
+        android:layout_width="245dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text=" Thông Tin Bản Thân"
+        android:textAlignment="textStart"
+        android:textColor="#1976BF"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:background="#FAC422"
+        android:padding="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="245dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:background="#FAC422"
+        android:fontFamily="@font/alfa_slab_one"
+        android:padding="6dp"
+        android:text=" Thông Tin Bản Thân"
+        android:textAlignment="textStart"
+        android:textColor="#1976BF"
+        android:textSize="20dp"
+        android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -59,7 +87,9 @@
         android:layout_height="36dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="26dp"
-        android:text="TextView"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Tuổi : 21"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -69,7 +99,9 @@
         android:layout_height="38dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
-        android:text="TextView"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Địa chỉ : Huyện Vạn Ninh"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -79,9 +111,75 @@
         android:layout_height="46dp"
         android:layout_marginTop="17dp"
         android:layout_marginEnd="27dp"
-        android:text="TextView"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Số điện thoại :  054088993"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="118dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="44dp"
+        android:background="#FAC422"
+        android:fontFamily="@font/alfa_slab_one"
+        android:padding="6dp"
+        android:text="Sở Thích"
+        android:textAlignment="textStart"
+        android:textColor="#1976BF"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="129dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="+ Chơi Game"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="126dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="+ Đọc sách"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="+ Xem Phim"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
