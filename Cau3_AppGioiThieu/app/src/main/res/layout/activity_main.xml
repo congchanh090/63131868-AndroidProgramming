@@ -7,38 +7,13 @@
     android:background="@drawable/background"
     tools:context=".MainActivity" >
 
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="369dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="24dp"
-
-        android:layout_marginTop="36dp"
-
-        android:fontFamily="sans-serif-medium"
-        android:shadowColor="#2196F3"
-        android:text="GIỚI THIỆU BẢN THÂN"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-     android:textColor="#FF5722"
-        android:textSize="30dp"
-        android:textStyle="bold|italic"
-        android:shadowDx="1"
-        android:shadowDy="1"
-        android:shadowRadius="2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="140dp"
-        android:layout_height="186dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="28dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_width="148dp"
+        android:layout_height="199dp"
+        android:src="@drawable/me"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="171dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -57,24 +32,22 @@
         android:layout_width="245dp"
         android:layout_height="44dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="28dp"
+        android:background="#FAC422"
         android:fontFamily="@font/alfa_slab_one"
+        android:padding="6dp"
         android:text=" Thông Tin Bản Thân"
         android:textAlignment="textStart"
         android:textColor="#1976BF"
         android:textSize="20dp"
         android:textStyle="italic"
-        android:background="#FAC422"
-        android:padding="6dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        tools:layout_editor_absoluteY="110dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="245dp"
         android:layout_height="44dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="28dp"
         android:background="#FAC422"
         android:fontFamily="@font/alfa_slab_one"
         android:padding="6dp"
@@ -84,7 +57,7 @@
         android:textSize="20dp"
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        tools:layout_editor_absoluteY="110dp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -139,16 +112,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="129dp"
-        android:layout_height="171dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="36dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <TextView
         android:id="@+id/textView11"
         android:layout_width="135dp"
@@ -184,6 +147,14 @@
         android:textSize="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="161dp"
+        android:layout_height="215dp"
+        app:srcCompat="@drawable/me1"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="460dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
