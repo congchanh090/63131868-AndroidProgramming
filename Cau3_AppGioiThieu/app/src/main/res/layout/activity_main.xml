@@ -10,14 +10,15 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="370dp"
-        android:layout_height="44dp"
+        android:layout_width="369dp"
+        android:layout_height="46dp"
         android:layout_marginStart="24dp"
 
         android:layout_marginTop="36dp"
-        android:fontFamily="monospace"
-        android:text="GIỚI THIỆU BẢN THÂN"
         android:background=""
+        android:fontFamily="sans-serif-medium"
+        android:shadowColor="#2196F3"
+        android:text="GIỚI THIỆU BẢN THÂN"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#185C91"
