@@ -11,9 +11,11 @@
         android:id="@+id/imageView"
         android:layout_width="148dp"
         android:layout_height="199dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
         android:src="@drawable/me"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="171dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/textView3"
@@ -23,6 +25,7 @@
         android:layout_marginEnd="24dp"
         android:fontFamily="@font/akaya_telivigala"
         android:text="Họ và tên : Lê Công Chánh"
+        android:textColor="@color/black"
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -32,6 +35,7 @@
         android:layout_width="245dp"
         android:layout_height="44dp"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="110dp"
         android:background="#FAC422"
         android:fontFamily="@font/alfa_slab_one"
         android:padding="6dp"
@@ -41,23 +45,7 @@
         android:textSize="20dp"
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="110dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="245dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="24dp"
-        android:background="#FAC422"
-        android:fontFamily="@font/alfa_slab_one"
-        android:padding="6dp"
-        android:text=" Thông Tin Bản Thân"
-        android:textAlignment="textStart"
-        android:textColor="#1976BF"
-        android:textSize="20dp"
-        android:textStyle="italic"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="110dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView7"
@@ -67,6 +55,7 @@
         android:layout_marginEnd="26dp"
         android:fontFamily="@font/akaya_telivigala"
         android:text="Tuổi : 21"
+        android:textColor="@color/black"
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -79,6 +68,7 @@
         android:layout_marginEnd="30dp"
         android:fontFamily="@font/akaya_telivigala"
         android:text="Địa chỉ : Huyện Vạn Ninh"
+        android:textColor="@color/black"
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
@@ -91,6 +81,7 @@
         android:layout_marginEnd="27dp"
         android:fontFamily="@font/akaya_telivigala"
         android:text="Số điện thoại :  054088993"
+        android:textColor="@color/black"
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
@@ -120,6 +111,7 @@
         android:layout_marginTop="20dp"
         android:fontFamily="@font/akaya_telivigala"
         android:text="+ Chơi Game"
+        android:textColor="@color/black"
         android:textSize="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -132,6 +124,7 @@
         android:layout_marginTop="20dp"
         android:fontFamily="@font/akaya_telivigala"
         android:text="+ Đọc sách"
+        android:textColor="@color/black"
         android:textSize="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -144,6 +137,7 @@
         android:layout_marginTop="13dp"
         android:fontFamily="@font/akaya_telivigala"
         android:text="+ Xem Phim"
+        android:textColor="@color/black"
         android:textSize="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
@@ -152,9 +146,11 @@
         android:id="@+id/imageView3"
         android:layout_width="161dp"
         android:layout_height="215dp"
-        app:srcCompat="@drawable/me1"
-        tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="460dp" />
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/me1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
