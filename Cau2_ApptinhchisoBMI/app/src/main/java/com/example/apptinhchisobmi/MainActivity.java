@@ -51,9 +51,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Thiếu dữ liệu cân nặng", Toast.LENGTH_SHORT).show();
                     editTextCC.requestFocus();
                 } else if (radioButtonNAM.isChecked() == false && radioButtonNu.isChecked() == false) {
-                    Toast.makeText(MainActivity.this, "Vui lòng chọn giới tính ", Toast.LENGTH_SHORT).show();
-                } else {
-                    double CC = Double.parseDouble(editTextCC.getText() + "");
+                    Toast.makeText(MainActi                    double CC = Double.parseDouble(editTextCC.getText() + "");
                     double CN = Double.parseDouble(editTextCN.getText() + "");
                     DecimalFormat dcf = new DecimalFormat("0.00");
                     double BMI = CN / Math.pow(CC, 2) * 10000;
@@ -72,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
                         else
                             textViewBMI.setText("Bạn đang béo phì cấp độ 3 , nên điều chỉnh chế độ ăn uống , tập thể dục nhiều vào nhé ");
                     }
+                    vity.this, "Vui lòng chọn giới tính ", Toast.LENGTH_SHORT).show();
+                } else {
 
                 }
             }
