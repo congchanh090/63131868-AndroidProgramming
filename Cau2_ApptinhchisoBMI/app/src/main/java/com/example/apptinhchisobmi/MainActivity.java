@@ -62,16 +62,15 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         textViewBMI.setText("Chỉ số BMI của bạn " + dcf.format(BMI));
                         if (BMI < 18.5)
-                            textViewBMI.setText("Bạn quá gầy , cần bổ sung thêm chất dinh dưỡng nữa nhé ");
+                            textViewBMI.setText("Bạn quá gầy , cần bổ sung thêm chất dinh dưỡng nữa bạn nhé ");
                         else if (18.5 <= BMI && BMI < 25)
                             textViewBMI.setText("Body chuẩn nhé , cứ tiếp tục phát huy  ");
                         else if (25 <= BMI && BMI < 30)
-                            textViewBMI.setText("Bạn đang béo phì cấp độ 1 , cần có chế độ giảm cân hợp lý ");
+                            textViewBMI.setText("Bạn đang béo phì cấp độ 1 , bạn nên giảm cân nhé ");
                         else if (30 <= BMI && BMI < 35)
                             textViewBMI.setText("Bạn đang béo phì cấp độ 2 , cần có chế độ giảm cân hợp lý ");
                         else
-                            textViewBMI.setText("Bạn đang béo phì cấp độ 3 , cần có chế độ giảm cân hợp lý ");
-
+                            textViewBMI.setText("Bạn đang béo phì cấp độ 3 , nên điều chỉnh chế độ ăn uống , tập thể dục nhiều vào nhé ");
                     }
 
                 }
