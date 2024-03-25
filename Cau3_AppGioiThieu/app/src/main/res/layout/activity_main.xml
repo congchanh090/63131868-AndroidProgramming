@@ -15,15 +15,18 @@
         android:layout_marginStart="24dp"
 
         android:layout_marginTop="36dp"
-        android:background=""
+
         android:fontFamily="sans-serif-medium"
         android:shadowColor="#2196F3"
         android:text="GIỚI THIỆU BẢN THÂN"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#185C91"
+     android:textColor="#FF5722"
         android:textSize="30dp"
-        android:textStyle="bold"
+        android:textStyle="bold|italic"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
