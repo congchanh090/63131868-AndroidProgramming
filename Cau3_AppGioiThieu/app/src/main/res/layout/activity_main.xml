@@ -54,7 +54,7 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="26dp"
         android:fontFamily="@font/akaya_telivigala"
-        android:text="Tuổi : 21"
+        android:text="Năm sinh : 2003"
         android:textColor="@color/black"
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
