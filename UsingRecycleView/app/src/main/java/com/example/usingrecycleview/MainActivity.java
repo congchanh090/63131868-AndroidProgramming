@@ -1,6 +1,7 @@
 package com.example.usingrecycleview;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -24,8 +25,12 @@ public class MainActivity extends AppCompatActivity {
         //4
         recyclerViewLandscape = findViewById(R.id.recycleLand) ;
         //5
-        RecyclerView.LayoutManager layoutLinear  = new LinearLayoutManager(this) ;
-        recyclerViewLandscape.setLayoutManager(layoutLinear);
+ //       RecyclerView.LayoutManager layoutLinear  = new LinearLayoutManager(this) ;
+        //    recyclerViewLandscape.setLayoutManager(layoutLinear);
+     //   RecyclerView.LayoutManager layoutLinearHorizonal  = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false) ;
+     //   recyclerViewLandscape.setLayoutManager(layoutLinearHorizonal);
+        RecyclerView.LayoutManager layoutLinearGrid  = new GridLayoutManager(this,2);
+        recyclerViewLandscape.setLayoutManager(layoutLinearGrid);
         //6
         landScapeAdapter = new LandScapeAdapter(this,recylerViewDatas) ;
         //7
