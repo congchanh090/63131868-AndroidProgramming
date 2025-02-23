@@ -1,0 +1,25 @@
+package ntu_63131868;
+
+import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
+public class Ground {
+
+	private BufferedImage groundImage  ; 
+	private int x , y ; 
+	public Ground () {
+		try {
+			groundImage = ImageIO.read(new File ("Asset/ground.png")) ; 
+		}
+		catch  (IOException ex) {}
+		x = 0 ; 
+		y = 400 ; 
+	}
+	public void Paint (Graphics2D g2) {
+		g2.drawImage(groundImage, x, y, null) ; 
+	}
+}
