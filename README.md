@@ -6,16 +6,6 @@
 <p align="center">
   <h3 align="center">A passionate developer from Vietnam 🇻🇳 </h3>
 </p>
-<h2 align="left">SOURCES CODE BÀI TẬP THỰC HÀNH</h2>
-
-###
-<div>
-  <h4>AppBMI</h4>
-  <img src = "https://github.com/congchanh090/63131868-AndroidProgramming/blob/main/images/AppBMI.png" width = "200">
-</div>
-
-
-
 <br />
 ## 📫 How to reach me:
 
