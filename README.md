@@ -9,10 +9,8 @@
 <h2 align="left">SOURCES CODE BÀI TẬP THỰC HÀNH</h2>
 
 ###
-<div>
   <h4>AppBMI</h4>
-![Image](https://github.com/user-attachments/assets/192942ee-a6c5-48f0-9bf1-6a56c0e66224)
-</div>
+![Image](https://github.com/user-attachments/assets/2757b551-54a2-402b-82a8-e6bba9dbd804)
 
 
 
