@@ -6,8 +6,9 @@
 <p align="center">
   <h3 align="center">A passionate developer from Vietnam 🇻🇳 </h3>
 </p>
-
-![image](https://github.com/user-attachments/assets/539a22c3-4cee-4a0a-871b-afd5622608b9)
+<h2 align="left">SOURCES CODE BÀI TẬP THỰC HÀNH</h2>
+<h4>AppBMI</h4>
+  <img src = "![image](https://github.com/user-attachments/assets/539a22c3-4cee-4a0a-871b-afd5622608b9)" width = "200">
 
 <br />
 ## 📫 How to reach me:
