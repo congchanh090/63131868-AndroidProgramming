@@ -13,7 +13,7 @@
 
 <h4>AppDoiDonVi</h4>
 
-<img src="https://github.com/user-attachments/assets/874f058c-6b7d-4667-9dfc-a9be36df0463" width="200">
+<img src="https://github.com/user-attachments/assets/c56ead57-1c22-4d0e-8128-6a0059fb6dd1" width="200">
 
 <h4>AppTinhChuViDienTichHCNTG</h4>
 <img src="https://github.com/user-attachments/assets/0c30eaaf-eb37-495d-b4d7-817f0bfbcc79" width="200">
