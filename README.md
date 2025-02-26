@@ -1,11 +1,23 @@
-<!-- <img align="left" width="400" src="https://github.githubassets.com/images/modules/profile/profile-first-repo.svg" /> -->
-<img align="right" width="64" src="https://github.com/TienNHM.png" />
-<!-- <img align="right" width="64" src="https://img.icons8.com/color/48/vietnam-circular.png" /> -->
-
 <h2 align="center">Hi 👋, I'm Lê Công Chánh</h2>
-<p align="center">
-  <h3 align="center">A passionate developer from Vietnam 🇻🇳 </h3>
-</p>
+<h2 align="left">SOURCES CODE BÀI TẬP THỰC HÀNH</h2>
+<h4>AppBMI</h4>
+
+<img src="https://github.com/user-attachments/assets/15ef97ef-0328-40fe-93b2-763a5d9313d6" width="200">
+
+<h4>AppDoiDonVi</h4>
+
+<img src="https://github.com/user-attachments/assets/c56ead57-1c22-4d0e-8128-6a0059fb6dd1" width="200">
+
+<h4>AppTinhChuViDienTichHCNTG</h4>
+<img src="https://github.com/user-attachments/assets/0c30eaaf-eb37-495d-b4d7-817f0bfbcc79" width="200">
+
+<h4>AppTinhChuViDienTichHinhTron</h4>
+<img src="https://github.com/user-attachments/assets/e8b2d976-b2a7-43f3-b1f8-d2dd6400f5f0" width="200">
+
+
+
+
+
 <br />
 ## 📫 How to reach me:
 
