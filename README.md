@@ -11,7 +11,7 @@
 ###
 <div>
   <h4>AppBMI</h4>
-  <img src = "https://github.com/congchanh090/63131868-AndroidProgramming/blob/main/images/AppBMI.png" width = "200">
+![Image](https://github.com/user-attachments/assets/192942ee-a6c5-48f0-9bf1-6a56c0e66224)
 </div>
 
 
