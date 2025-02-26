@@ -6,6 +6,9 @@
 <p align="center">
   <h3 align="center">A passionate developer from Vietnam 🇻🇳 </h3>
 </p>
+
+![image](https://github.com/user-attachments/assets/539a22c3-4cee-4a0a-871b-afd5622608b9)
+
 <br />
 ## 📫 How to reach me:
 
