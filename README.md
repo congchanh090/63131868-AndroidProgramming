@@ -6,14 +6,6 @@
 <p align="center">
   <h3 align="center">A passionate developer from Vietnam 🇻🇳 </h3>
 </p>
-<h2 align="left">SOURCES CODE BÀI TẬP THỰC HÀNH</h2>
-
-###
-  <h4>AppBMI</h4>
-![Image](https://github.com/user-attachments/assets/2757b551-54a2-402b-82a8-e6bba9dbd804)
-
-
-
 <br />
 ## 📫 How to reach me:
 
