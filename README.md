@@ -9,7 +9,7 @@
 <img src="https://github.com/user-attachments/assets/c56ead57-1c22-4d0e-8128-6a0059fb6dd1" width="200">
 
 <h4>AppTinhChuViDienTichHCNTG</h4>
-<img src="https://github.com/user-attachments/assets/0c30eaaf-eb37-495d-b4d7-817f0bfbcc79" width="200">
+<img src="https://github.com/user-attachments/assets/c09ce72c-a564-4a0f-b29e-9b1e8997990a" width="200">
 
 <h4>AppTinhChuViDienTichHinhTron</h4>
 <img src="https://github.com/user-attachments/assets/e8b2d976-b2a7-43f3-b1f8-d2dd6400f5f0" width="200">
