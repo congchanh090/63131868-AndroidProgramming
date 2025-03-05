@@ -8,6 +8,20 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="App Cộng trừ nhân chia"
+        android:textAlignment="center"
+        android:textColor="#2B7597"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
