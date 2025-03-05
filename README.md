@@ -14,6 +14,13 @@
 <h4>AppTinhChuViDienTichHinhTron</h4>
 <img src="https://github.com/user-attachments/assets/e8b2d976-b2a7-43f3-b1f8-d2dd6400f5f0" width="200">
 
+<h4>Ex5_AddSubMulDiv_Anynomous</h4>
+
+<img src="https://github.com/user-attachments/assets/b9e40bbd-4ae2-44b4-a362-6eec218af95c" width="200">
+
+<h4>Ex5_AddSubMulDiv_Var</h4>
+
+<img src="https://github.com/user-attachments/assets/7c26a982-5cda-4753-8715-bde010665a1c" width="200">
 
 
 
