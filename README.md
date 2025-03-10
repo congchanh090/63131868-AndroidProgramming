@@ -23,14 +23,14 @@
 <img src="https://github.com/user-attachments/assets/7c26a982-5cda-4753-8715-bde010665a1c" width="200">
 
 <h4>Ex6_IntentDonGian</h4>
-<img src="https://github.com/user-attachments/assets/0e227a30-84bf-4da4-9adf-6356877201fe" width="100">
-<img src="https://github.com/user-attachments/assets/dc46cdaf-976e-40f1-bb9c-5b0e47e88f6c" width="100">
-<img src="https://github.com/user-attachments/assets/cfee11ef-5af2-4054-93ca-158f0a491976" width="100">
+<img src="https://github.com/user-attachments/assets/0e227a30-84bf-4da4-9adf-6356877201fe" width="150">
+<img src="https://github.com/user-attachments/assets/dc46cdaf-976e-40f1-bb9c-5b0e47e88f6c" width="150">
+<img src="https://github.com/user-attachments/assets/cfee11ef-5af2-4054-93ca-158f0a491976" width="150">
 
 <h4>Ex7_IntentLogin</h4>
-<img src="https://github.com/user-attachments/assets/0e227a30-84bf-4da4-9adf-6356877201fe" width="100">
-<img src="https://github.com/user-attachments/assets/dc46cdaf-976e-40f1-bb9c-5b0e47e88f6c" width="100">
-<img src="https://github.com/user-attachments/assets/cfee11ef-5af2-4054-93ca-158f0a491976" width="100">
+<img src="https://github.com/user-attachments/assets/80928d67-cd47-464d-aae7-58c1cfd930a1" width="150">
+<img src="https://github.com/user-attachments/assets/b9310543-7d31-47e0-8829-bdfb6614b6e5" width="150">
+<img src="https://github.com/user-attachments/assets/c1f81624-4935-4cad-920a-e00257328509" width="150">
 
 
 
