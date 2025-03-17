@@ -1,10 +1,12 @@
 package com.example.listview;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -38,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         dsbaihat.add("Hẹn em ở lần yêu thứ hai");
         dsbaihat.add("Phiêu du");
         dsbaihat.add("Lặng");
+
 
 
 
