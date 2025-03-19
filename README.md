@@ -38,6 +38,10 @@
 <h4>LoginScreen</h4>
 <img src="https://github.com/user-attachments/assets/7e2abb59-b8a5-4913-9b61-27b185954223" width="200">
 
+<h4>ModenDashboard</h4>
+
+<img src="https://github.com/user-attachments/assets/6051e873-f5ad-49d5-a7f1-3105e68adffd" width="200">
+
 
 
 <br />
