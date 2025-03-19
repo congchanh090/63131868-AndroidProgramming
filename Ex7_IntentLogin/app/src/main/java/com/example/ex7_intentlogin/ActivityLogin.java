@@ -31,6 +31,7 @@ public class ActivityLogin extends AppCompatActivity {
                 String strUserName = edtUserName.getText().toString();
                 String strPassword = edtPassword.getText().toString();
                 String strEmail = edtEmail.getText().toString().trim();
+
                 if(strUserName.equals("64HTTT") && strPassword.equals("123") && Patterns.EMAIL_ADDRESS.matcher(strEmail).matches()){
                     Intent iHome = new Intent(ActivityLogin.this, ActivityHome.class);
                     iHome.putExtra("UserName", strUserName);

@@ -42,8 +42,6 @@ public class MainActivity extends AppCompatActivity {
         dsbaihat.add("Lặng");
 
 
-
-
         adapterBaihat = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, dsbaihat);
 
         lvBaiHat.setAdapter(adapterBaihat);
@@ -63,6 +61,9 @@ public class MainActivity extends AppCompatActivity {
     void TimDK(){
         lvBaiHat = findViewById(R.id.lvbaihat);
     }
+
+
+
 
     //Tạo bộ lắng nghe và xử lý sự kiện OnItemClick
     //Cách 2:
