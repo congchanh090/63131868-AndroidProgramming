@@ -12,7 +12,7 @@
 <img src="https://github.com/user-attachments/assets/885a44f0-b71b-469f-8056-9546402c0ce0" width="200">
 
 <h4>AppTinhChuViDienTichHinhTron</h4>
-<img src="https://github.com/user-attachments/assets/e8b2d976-b2a7-43f3-b1f8-d2dd6400f5f0" width="200">
+<img src="https://github.com/user-attachments/assets/b0e94843-ac54-4bd3-8beb-23e911ecb730" width="200">
 
 <h4>Ex5_AddSubMulDiv_Anynomous</h4>
 
