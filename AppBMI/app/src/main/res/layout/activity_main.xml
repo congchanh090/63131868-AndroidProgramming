@@ -6,54 +6,72 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    tools:ignore="MissingClass">
+    android:background="#F5F5DC">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="378dp"
-        android:layout_height="102dp"
-        android:layout_marginTop="32dp"
-        android:background="@color/material_dynamic_neutral60"
-        android:text="Tính chỉ số BMI dựa vào chiều cao cân nặng"
-        android:textAlignment="center"
-        android:textColor="#2B7597"
-        android:textSize="30dp"
-        android:textStyle="bold"
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="#33CCFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="160dp"
+            android:layout_marginBottom="20dp"
+            android:text="APP TÍNH BMI"
+            android:textAlignment="center"
+            android:textColor="#67500B"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="106dp"
         android:layout_height="34dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
         android:text="Chiều cao"
         android:textColor="@color/material_dynamic_neutral_variant40"
+        app:layout_constraintEnd_toStartOf="@+id/editTextCC"
+        app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
 
     <EditText
         android:id="@+id/editTextCC"
         android:layout_width="200dp"
         android:layout_height="42dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="109dp"
         android:layout_height="39dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="40dp"
         android:text="Cân nặng"
         android:textColor="@color/material_dynamic_neutral_variant40"
+        app:layout_constraintEnd_toStartOf="@+id/editTextCN"
+        app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -75,9 +93,11 @@
         android:layout_width="106dp"
         android:layout_height="35dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="44dp"
         android:text="Giới tính"
         android:textColor="@color/material_dynamic_neutral_variant40"
+        app:layout_constraintEnd_toStartOf="@+id/RadioGroupGT"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -92,31 +112,34 @@
 
         <RadioButton
             android:id="@+id/radioButtonNam"
-            android:layout_width="163dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
             android:text="Nam" />
 
         <RadioButton
             android:id="@+id/radioButtonNu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="Nữ" />
 
     </RadioGroup>
 
+
     <Button
         android:id="@+id/buttonDG"
-        android:layout_width="204dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginBottom="164dp"
-        android:background="@color/material_dynamic_neutral_variant60"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginEnd="124dp"
+        android:backgroundTint="#66CCCC"
         android:text="Đánh Giá"
-        android:textColor="@color/black"
-        android:textSize="18dp"
-        app:iconPadding="8dp"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textViewBMI"
@@ -124,15 +147,18 @@
         android:layout_height="54dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="40dp"
+        android:textColor="@color/black"
         android:text=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonDG" />
+
 
     <TextView
         android:id="@+id/textViewDG"
         android:layout_width="360dp"
         android:layout_height="48dp"
         android:layout_marginStart="30dp"
+        android:textColor="@color/black"
         android:text=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewBMI" />
