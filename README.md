@@ -6,7 +6,7 @@
 
 <h4>AppDoiDonVi</h4>
 
-<img src="https://github.com/user-attachments/assets/b72143f4-24c0-4146-9ab6-bad16dd006ca" width="200">
+<img src="https://github.com/user-attachments/assets/47fabace-6ee2-4a5d-8aa0-94af57bb1c13" width="200">
 
 <h4>AppTinhChuViDienTichHCNTG</h4>
 <img src="https://github.com/user-attachments/assets/c09ce72c-a564-4a0f-b29e-9b1e8997990a" width="200">
