@@ -2,7 +2,7 @@
 <h2 align="left">SOURCES CODE BÀI TẬP THỰC HÀNH</h2>
 <h4>AppBMI</h4>
 
-<img src="https://github.com/user-attachments/assets/15ef97ef-0328-40fe-93b2-763a5d9313d6" width="200">
+<img src="https://github.com/user-attachments/assets/8837e804-7e7b-420f-a894-8a4646c56a2d" width="200">
 
 <h4>AppDoiDonVi</h4>
 
