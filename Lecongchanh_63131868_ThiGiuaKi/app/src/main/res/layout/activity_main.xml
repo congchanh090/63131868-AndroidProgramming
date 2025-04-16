@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6262DE"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="194dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logontu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnChuyen"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="61dp"
+        android:backgroundTint="#FF9900"
+        android:text="Chức năng 2"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.MaterialComponents.SmallComponent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="135dp"
+        android:layout_height="347dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="240dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo"
+        app:srcCompat="@mipmap/anhdai" />
+
+    <Button
+        android:id="@+id/btnChuyenMan2"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="61dp"
+        android:backgroundTint="#66CCFF"
+        android:text="Chức năng 3"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.MaterialComponents.SmallComponent" />
+
+    <Button
+        android:id="@+id/btnChuyenMan3"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="61dp"
+        android:backgroundTint="#FF6666"
+        android:text="Chức năng 4"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChuyen"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.MaterialComponents.SmallComponent" />
+
+    <Button
+        android:id="@+id/btnChuyenMan4"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="61dp"
+        android:backgroundTint="#FF5733"
+        android:text="About Me"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChuyenMan2"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.MaterialComponents.SmallComponent" />
+
+    <Button
+        android:id="@+id/btnChuyenMan5"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="61dp"
+        android:backgroundTint="#FF5733"
+        android:text="Chức năng làm thêm"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChuyenMan4"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.MaterialComponents.SmallComponent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
