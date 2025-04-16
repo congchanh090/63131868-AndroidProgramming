@@ -43,6 +43,10 @@
 <h4>RecyclerView</h4>
 <img src="https://github.com/user-attachments/assets/e67d5da8-e620-4ab9-8eca-41a996ca0e4e" width="200">
 
+<h4>FragmentEx</h4>
+<img src="https://github.com/user-attachments/assets/01b50edc-ab5d-4e63-829b-62cb39952bd1" width="200">
+
+
 
 
 
