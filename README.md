@@ -49,6 +49,11 @@
 <h4>FragmentExAddDynamic</h4>
 <img src="https://github.com/user-attachments/assets/3f643320-3cf8-43d2-bfb0-dff488e13ac2" width="200">
 
+<h4>FragmentEx_Replace</h4>
+<img src="https://github.com/user-attachments/assets/f0052f0b-42f1-404c-aac2-cd9890b09009" width="150">
+<img src="https://github.com/user-attachments/assets/e4634849-e34f-4233-a151-e4d429da00a9" width="150">
+<img src="https://github.com/user-attachments/assets/3f4442c7-7a9e-4bf0-be4f-7931fc8c8455" width="150">
+<img src="https://github.com/user-attachments/assets/0ded63d2-2133-4210-9fb8-1242e59c759e" width="150">
 
 
 
