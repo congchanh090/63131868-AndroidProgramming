@@ -46,6 +46,9 @@
 <h4>FragmentEx</h4>
 <img src="https://github.com/user-attachments/assets/01b50edc-ab5d-4e63-829b-62cb39952bd1" width="200">
 
+<h4>FragmentExAddDynamic</h4>
+<img src="https://github.com/user-attachments/assets/3f643320-3cf8-43d2-bfb0-dff488e13ac2" width="200">
+
 
 
 
